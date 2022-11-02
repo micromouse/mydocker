@@ -7,7 +7,7 @@ docker run -d `
 -v c:/programdata/docker.mount/mysql/config:/etc/mysql/conf.d `
 -v c:/programdata/docker.mount/mysql/data:/var/lib/mysql `
 -v c:/programdata/docker.mount/mysql/log:/var/log/mysql `
--e MYSQL_ROOT_PASSWORD=mysql123! `
+-e MYSQL_ROOT_PASSWORD=mysql123 `
 mysql:latest
 ```
 
